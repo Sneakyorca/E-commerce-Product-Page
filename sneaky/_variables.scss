@@ -1,0 +1,31 @@
+// theme colors
+$primary:  #ff7d1a !default;
+$secondary:  #ffede0!default;
+
+// color palette
+$colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "v-d-blue": #1d2025,
+  "d-g-blue": hsl(219, 9%, 45%),
+  "g-blue": hsl(220, 14%, 75%),
+  "l-g-blue": hsl(223, 64%, 98%),
+  "black-light": hsl(0, 0%, 0%),
+  "black": black,
+  "white": white,
+) !default;
+
+// spacing
+$base-padding: 0.75rem !default;
+$base-margin: 0.75rem !default;
+
+// borders
+$base-border-thickness: 1px !default;
+$base-border-radius: 20px !default;
+
+// font sizes
+$base-font-size: 16px !default;
+$font-size-sm: $base-font-size * 0.75 !default;
+$font-size-lg: $base-font-size * 1.5 !default;
+$font-size-xl: $base-font-size * 2 !default;
+$font-size-xxl: $base-font-size * 3 !default;

@@ -1,10 +1,17 @@
+// import google font
+
+
 /* reset styles */
 * {
   color: inherit;
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: $base-font-size;
 }
+
+//body {
+//  font-family:;
+//}
 
 li {
   padding: 0;
