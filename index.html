@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/index.css">
   <title>Frontend Mentor | E-commerce product page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -16,19 +15,19 @@
 </head>
 <body>
   
-  <nav class="nav">
-    <p class="site-title"></p>
-    <div class="container justify-between">
-      <div class="nav-list">
-        <li class="nav-item">Collections</li>
-        <li class="nav-item">Men</li>
-        <li class="nav-item">Women</li>
-        <li class="nav-item">About</li>
-        <li class="nav-item">Contact</li>
-      </div>
-      <div class="nav-list">
-        <li class="nav-item"><img src="images/icon-cart.svg" alt=""></li>
-        <li class="nav-item"><img src="images/image-avatar.png" alt=""></li>
+  <nav class="navbar">
+    <p class="site-title text-v-d-blue">sneakers</p>
+    <div class="container">
+      <div class="nav-list  text-d-g-blue container">
+        <a href="#" class="nav-item">Collections</a>
+        <a href="#" class="nav-item">Men</a>
+        <a href="#" class="nav-item">Women</a>
+        <a href="#" class="nav-item">About</a>
+        <a href="#" class="nav-item">Contact</a>
+    </div>
+      <div class="nav-list container">
+        <li class="nav-item one"><img src="images/icon-cart.svg" alt=""></li>
+        <li class="nav-item"><img src="images/image-avatar.png" width="40px" alt=""></li>
       </div>
     </div>
   </nav>
@@ -45,16 +44,18 @@
         </div>
       </div>
       <div class="col-lg-6">
-        <div class="card">
+        <div class="item-display">
           <div class="title-small">SNEAKER COMPANY</div>
-          <h1 class="title-lg">Fall Limited Edition Sneakers</h1>
-          <p class="card-body"></p>
+          <h1 class="card-title">Fall Limited Edition Sneakers</h1>
+          <p class="card-body">
+            These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything weather can offer.
+          </p>
           <div class="pricing"><span class="price">$125</span><span class="disc bg-black">50%</span><span class="org-price">$250</span></div>
           <div class="mini-cart">
-            <div class="counter text-orange">
-              <span><img src="images/icon-minus.svg" alt=""></span><span class="amt text-black">0</span><span><img src="images/icon-plus.svg" alt=""></span></div>
+            <div class="counter text-orange btn-adding-l-g-blue">
+              <span><img src="images/icon-minus.svg" class="minus" alt=""></span><span class="amt text-black">0</span><span><img class="plus" src="images/icon-plus.svg" alt=""></span></div>
             </div>
-            <div class="add-to-cart"><img src="images/icon-cart.svg" alt=""><span class="bg-orange">Add to cart</span></div>
+            <div class="add-to-cart btn-cart-primary"><img src="images/icon-cart.svg" alt=""><span class="bg-orange">Add to cart</span></div>
         </div>
       </div>
     </div>

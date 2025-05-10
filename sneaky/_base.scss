@@ -1,5 +1,5 @@
 // import google font
-
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
 
 /* reset styles */
 * {
@@ -9,9 +9,9 @@
   font-size: $base-font-size;
 }
 
-//body {
-//  font-family:;
-//}
+body {
+    font-family: "Kumbh Sans", sans-serif;
+}
 
 li {
   padding: 0;
@@ -24,4 +24,13 @@ a {
 
 img {
   max-width: 100%;
+}
+.add-to-cart{
+  span{
+    padding-left: 10px;
+  }
+}
+
+body {
+  padding: 0 180px;
 }

@@ -1,0 +1,41 @@
+@mixin btn($bg-color: #e2e2e2){
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: $base-padding $base-padding * 4;
+    border-radius: $base-border-radius;
+    background-color: $bg-color;
+    max-width: fit-content
+}
+
+.btn{
+    @include btn;
+}
+
+@each $k, $v in $colors{
+    .btn-cart-#{$k}{
+        @include btn($v);
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        &:hover{
+            background-color: lighten($v, 5);
+        }
+    }
+    .btn-adding-#{$k}{
+        @include btn($v);
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+        .minus{
+            padding: 0 40px 0 8px;
+            transform: translateY(-2.5px);
+        }
+        .plus{
+            padding: 0 8px 0 40px;
+        }
+    }
+}
