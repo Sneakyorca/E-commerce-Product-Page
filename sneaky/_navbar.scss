@@ -10,7 +10,6 @@
   @extend %flex-layout;
   padding: $base-padding $base-padding $base-padding * 2 ;
   border-bottom: $base-border-thickness solid map-get($colors, g-blue);
-  margin-bottom: $base-margin * 8;
   .site-title{
     font-size: $font-size-xl;
     font-weight: bold;

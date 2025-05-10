@@ -4,6 +4,11 @@
 
 @import 'colors';
 
+@import 'utilities';
+@import 'breakpoints';
+
 @import 'components/button';
 @import 'components/item-display';
 @import 'navbar';
+@import 'components/image-gallery';
+@import 'grid';
