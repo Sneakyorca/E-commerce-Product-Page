@@ -37,7 +37,7 @@ body {
 }
 
 .bg-primary {
-  color: #ff7d1a;
+  background-color: #ff7d1a;
 }
 
 .text-secondary {
@@ -45,7 +45,7 @@ body {
 }
 
 .bg-secondary {
-  color: #ffede0;
+  background-color: #ffede0;
 }
 
 .text-v-d-blue {
@@ -53,7 +53,7 @@ body {
 }
 
 .bg-v-d-blue {
-  color: #1d2025;
+  background-color: #1d2025;
 }
 
 .text-d-g-blue {
@@ -61,7 +61,7 @@ body {
 }
 
 .bg-d-g-blue {
-  color: hsl(219, 9%, 45%);
+  background-color: hsl(219, 9%, 45%);
 }
 
 .text-g-blue {
@@ -69,7 +69,7 @@ body {
 }
 
 .bg-g-blue {
-  color: hsl(220, 14%, 75%);
+  background-color: hsl(220, 14%, 75%);
 }
 
 .text-l-g-blue {
@@ -77,7 +77,7 @@ body {
 }
 
 .bg-l-g-blue {
-  color: hsl(223, 64%, 98%);
+  background-color: hsl(223, 64%, 98%);
 }
 
 .text-black-light {
@@ -85,7 +85,7 @@ body {
 }
 
 .bg-black-light {
-  color: hsl(0, 0%, 0%);
+  background-color: hsl(0, 0%, 0%);
 }
 
 .text-black {
@@ -93,7 +93,7 @@ body {
 }
 
 .bg-black {
-  color: black;
+  background-color: black;
 }
 
 .text-white {
@@ -101,7 +101,7 @@ body {
 }
 
 .bg-white {
-  color: white;
+  background-color: white;
 }
 
 .p-0 {
@@ -819,6 +819,38 @@ body {
   padding: 0 8px 0 40px;
 }
 
+.small-title {
+  font-weight: bold;
+}
+
+.body {
+  line-height: 1.8em;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.disc {
+  padding: 3px 5px;
+}
+
+.org-price {
+  text-decoration: line-through;
+  margin-top: 10px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.mini-cart {
+  display: flex;
+  align-items: center;
+}
+
+.counter {
+  margin-right: 10px;
+}
+
 .navbar .container, .navbar-white .container, .navbar-black .container, .navbar-black-light .container, .navbar-l-g-blue .container, .navbar-g-blue .container, .navbar-d-g-blue .container, .navbar-v-d-blue .container, .navbar-secondary .container, .navbar-primary .container, .navbar, .navbar-white, .navbar-black, .navbar-black-light, .navbar-l-g-blue, .navbar-g-blue, .navbar-d-g-blue, .navbar-v-d-blue, .navbar-secondary, .navbar-primary {
   width: 100%;
   display: flex;
@@ -881,6 +913,11 @@ body {
 
 .little-images {
   display: flex;
+}
+
+.little-one.active {
+  border: 2px solid #ff7d1a;
+  opacity: 0.5;
 }
 
 .container {
@@ -950,6 +987,26 @@ body {
 
 .justify-space-around {
   justify-content: space-around;
+}
+
+.align-flex-start {
+  align-self: flex-start;
+}
+
+.align-flex-end {
+  align-self: flex-end;
+}
+
+.align-center {
+  align-self: center;
+}
+
+.align-space-between {
+  align-self: space-between;
+}
+
+.align-space-around {
+  align-self: space-around;
 }
 
 @media (min-width: 0) {

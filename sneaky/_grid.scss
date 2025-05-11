@@ -39,6 +39,11 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
     justify-content: $val;
   }
 }
+@each $val in $layout-values {
+  .align-#{$val} {
+    align-self: $val;
+  }
+}
 
 // col classes
 @include xs {

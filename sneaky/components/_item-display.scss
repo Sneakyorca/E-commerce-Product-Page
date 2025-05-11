@@ -1,0 +1,25 @@
+.small-title{
+    font-weight: bold;
+}
+.body{
+    line-height: 1.8em;
+}
+.price{
+    font-weight: bold
+}
+.disc{
+    padding: 3px 5px;
+}
+.org-price{
+    text-decoration: line-through;
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: bold
+}
+.mini-cart{
+    display: flex;
+    align-items: center;
+}
+.counter{
+    margin-right: 10px;
+}

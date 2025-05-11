@@ -1,3 +1,7 @@
 .little-images{
     display: flex;
 }
+.little-one.active{
+    border: $base-border-thickness * 2 solid $primary;
+    opacity: 0.5;
+}
