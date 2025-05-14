@@ -14,6 +14,13 @@
 }
 
 @each $k, $v in $colors{
+    .btn-#{$k}{
+        @include btn($v);
+        max-width: none;
+        &:hover{
+            background-color: lighten($v, 5);
+        }
+    }
     .btn-cart-#{$k}{
         @include btn($v);
         display: inline-flex;

@@ -5,3 +5,30 @@
         opacity: 0.5;
     }
 }
+
+// lightbox
+.new-gallery{
+    position: absolute;
+    z-index: 1;
+    top: 20vh;
+    right: 20%;
+    margin-right: 0;
+    > img{
+        position: absolute;
+        cursor: pointer;
+        top: -20px;
+        right: 20%;
+    }
+    .main-img{
+        width: 80%;
+    }
+    .little-images{
+        margin-left: 5%;
+        width: 70%;
+        li{
+            .active{
+                opacity: 1;
+            }
+        }
+    }
+}

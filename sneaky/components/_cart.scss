@@ -1,0 +1,78 @@
+.cart{
+    position: absolute;
+    right: 6%;
+    top: 10vh;
+    z-index: 1;
+    margin: 8px;
+    background-color: white;
+    box-shadow: 0 10px 15px 0px map-get($colors, g-blue);
+    min-height: 30vh;
+    width: 96%;
+    max-width: 339.5px;
+    border-radius: $base-border-radius;
+    box-sizing: border-box;
+    display: none;
+    .del{
+        cursor: pointer;
+    }
+    >:first-child{
+        margin-bottom: 20px;
+    }
+    hr{
+        width: 114.4%;
+        transform: translateX(-6.4%);
+        align-self: center;
+        background-color: map-get($colors, l-g-blue);
+        border: none;
+        height: 2px;
+        margin-bottom: 20px;
+    }
+    .items{
+        margin-bottom: 20px;
+        >:first-child{
+            margin-bottom: 5px;
+        }
+        .item{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            .info{
+                margin-right: 10px;
+                margin-left: 10px;
+                p{
+                    align-self: center;
+                }
+                > :first-child{
+                    padding-bottom: 5px;
+                }
+            }
+        }
+    }
+    .checkout{
+        width: 70%;
+        text-align: center;
+    }
+    .empty{
+        display: flex;
+        justify-self: center;
+        margin-top: 7vh;
+    }
+}
+.active-cart{
+    display: block;
+}
+.one{
+    cursor: pointer;
+    position: relative;
+}
+.span{
+    position: absolute;
+    right: 30%;
+    top: -30%;
+    padding: 2px 7px;
+    border-radius: 50%;
+    background-color: $primary;
+    font-size: 8px;
+    color: white;
+}

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/index.css">
+  <script src="script.js"></script>
   <title>Frontend Mentor | E-commerce product page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -26,16 +27,29 @@
         <a href="#" class="nav-item">Contact</a>
     </div>
       <div class="nav-list container">
-        <li class="nav-item one"><img src="images/icon-cart.svg" alt=""></li>
+        <li class="nav-item one"><img class="one-img" src="images/icon-cart.svg" alt=""></li>
         <li class="nav-item"><img src="images/image-avatar.png" width="40px" alt=""></li>
       </div>
     </div>
   </nav>
 
+  <nav class="hamburger">
+      <p class="menu"><span></span><span></span></p>
+      <a href="#">Collections</a>
+      <a href="#">Men</a>
+      <a href="#">Women</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+  </nav>
+  <div class="cart p-2">
+    <p><strong>Cart</strong></p>
+    <hr>
+    <p class="text-d-g-blue empty">Your cart is empty</p>
+  </div>
   <div class="container main">
     <div class="img-cont row justify-center">
       <div class="col-5-lg col-12-xs gallery">
-        <div class="main-img"><img src="images/image-product-1.jpg" class="br-lg" alt=""></div>
+        <div class="main-img"><img src="images/image-product-1.jpg" class="br-lg omg" alt=""></div>
         <div class="little-images gap-1">
           <li><img src="images/image-product-1-thumbnail.jpg" class="br-sm little-one active" alt=""></li>
           <li><img src="images/image-product-2-thumbnail.jpg" class="br-sm little-two" alt=""></li>
@@ -69,6 +83,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Sneakyorca</a>.
   </div>
-<script src="script.js"></script>
+  <div class="over-lay"></div>
 </body>
 </html>
