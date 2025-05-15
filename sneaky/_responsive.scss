@@ -2,6 +2,10 @@
     display: none;
     position: absolute;
 }
+body{
+        padding: 0;
+        overflow-x: hidden;
+}
 .new-gallery{
     .prev{
         display: inline-block;
