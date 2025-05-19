@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Sneakyorca/E-commerce-Product-Page.git)
-- Live Site URL: [Add live site URL here](https://sneakyorca.github.io/E-commerce-Product-Page/)
+- Solution URL: [Link to solution](https://github.com/Sneakyorca/E-commerce-Product-Page.git)
+- Live Site URL: [Live preview of soution](https://sneakyorca.github.io/E-commerce-Product-Page/)
 
 ### Built with
 
@@ -44,7 +44,7 @@ Users should be able to:
 ### Useful resources
 
 - [Chatgpt](https://www.chatgpt.com) - This helped me in spotting my errors quick and finding solutions to difficult tasks.
-- [Example resource 2](https://www.example.com) - This is an amazing website which really help in making it easier to understand sass(what I used to style). I'd recommend it to anyone still learning this concept.
+- [W3Schools](https://w3schools.com) - This is an amazing website which really help in making it easier to understand sass(what I used to style). I'd recommend it to anyone still learning this concept.
 
 ## Author
 
