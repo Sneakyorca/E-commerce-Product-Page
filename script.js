@@ -1,8 +1,9 @@
 window.addEventListener('DOMContentLoaded', () => {
 
     const width = window.innerWidth
-    if(width <= 720){
-
+    console.log(width)
+    console.log(window.innerWidth, window.devicePixelRatio)
+    if(width <= 721){
       //navbar
 
         const nav = document.querySelector(".navbar");
@@ -16,6 +17,7 @@ window.addEventListener('DOMContentLoaded', () => {
             <li class="nav-item"><img src="images/image-avatar.png" width="40px" alt=""></li>
           </div>
         </div>`
+        console.log(200)
       const hamburgToggle = document.querySelectorAll('.menu');
       hamburgToggle.forEach(menu => {
         menu.addEventListener('click', () =>{
