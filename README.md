@@ -48,6 +48,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Sneakyorca]
+- Website - [https://github.com/Sneakyorca]
 - Frontend Mentor - [@Sneakyorca](https://www.frontendmentor.io/profile/Sneakyorca)
 
